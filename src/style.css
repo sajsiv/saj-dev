@@ -1,0 +1,63 @@
+.dollarInput {
+  display: inline-block;
+}
+
+.inputWrapper {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.consoleInput {
+  border: 0;
+  width: 380%;
+  background-color: black;
+  color: green;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 16px;
+}
+
+.consoleInput:focus {
+  outline: none;
+}
+
+.terminal {
+  vertical-align: top;
+  height: 400px;
+  width: 800px;
+  background-color: black;
+  overflow-y: scroll;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: green;
+  border-radius: 0px 0px 15px 15px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+html {
+  background-color: #000080;
+}
+
+.consoleContainer {
+  padding-left: 42%;
+  padding-top: 7%;
+}
+
+.topbar {
+  color: gainsboro;
+  background-color: #42445e;
+  margin-bottom: -16px;
+  margin-right: 82px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 0.4%;
+}
+
+.minimise {
+  text-align: right;
+  margin-top: -2%;
+  margin-right: 3%;
+  padding-bottom: 0.5%;
+}

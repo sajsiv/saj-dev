@@ -1,7 +1,14 @@
-import { greet } from "./utils/greet";
+import Console from "./components/console";
+import "./style.css";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <>
+      <div className="consoleContainer">
+        <Console />
+      </div>
+    </>
+  );
 }
 
 export default App;
