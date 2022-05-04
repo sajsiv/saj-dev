@@ -91,18 +91,27 @@ export default function Console(): JSX.Element {
       command: "portfolio",
       response: (
         <p>
-          <b>Pastebin App</b>
+          <a href="https://incredible-kulfi-5ae6a9.netlify.app/">
+            <b>Pastebin App</b>
+          </a>
           <br></br> -an app to save pieces of code <br></br>
           -built using Postgres, Express, React, TypeScript, HTML and CSS
-          <br></br>- <a>GitHub</a>, <a>Documentation</a>
+          <br></br>- <a href="https://github.com/sajsiv/">GitHub</a>,{" "}
+          <a href="https://github.com/sajsiv/">Documentation</a>
           <br></br>
           <br></br>
-          <b>TV App</b>
+          <a href="https://academy-jacobcutts13-tv-shows.netlify.app/">
+            <b>TV App</b>
+          </a>
           <br></br>
           -an app to find information and memes about TV episodes
           <br></br>
           -built using React, TypeScript, HTML and CSS
-          <br></br>- <a>GitHub</a>, <a>Documentation</a>
+          <br></br>-{" "}
+          <a href="https://github.com/JacobCutts13/academy-tv-shows">GitHub</a>,{" "}
+          <a href="https://github.com/JacobCutts13/academy-tv-shows">
+            Documentation
+          </a>
         </p>
       ),
     },
