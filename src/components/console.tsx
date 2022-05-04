@@ -5,7 +5,7 @@ import FocusLock from "react-focus-lock";
 export default function Console(): JSX.Element {
   const [log, setLog] = useState<JSX.Element[]>([
     <p key="start">
-      Welcome to Saj.dev - type <b>help</b> for a list of supported commands
+      Welcome to saj-dev - type <b>help</b> for a list of supported commands
     </p>,
   ]);
   const [input, setInput] = useState<string>("");
@@ -29,27 +29,83 @@ export default function Console(): JSX.Element {
       command: "about",
       response: (
         <p>
-          Hey there wanderer! My name's <b>Saj</b> and I'm a trainee software
-          engineer. I am finishing up a grant-funding graduate technology scheme
-          at <a href="https://academy.tech/">Academy</a>. The scheme is funded
-          by LocalGlobe and Emerge Education!
+          Hey wanderer👋
+          <br></br>
+          <br></br>
+          My name's <b>Saj</b> and I'm a trainee software engineer👨‍💻. I am a
+          scholar on{" "}
+          <b>
+            <a
+              className="link"
+              href="https://academy.tech/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Academy's
+            </a>
+          </b>{" "}
+          Tech Leadership graduate scheme. Over the past 4 months, I've been
+          building projects and learning <b>React</b>, <b>TypeScript</b>,{" "}
+          <b>Express</b>, <b>Postgresql</b> and <b>JavaScript</b>.
         </p>
       ),
     },
-    //{
-    //   command: "experience",
-    //   response:
-    //     "Xceptor - delivered data automation projects for J.P. Morgan, Citi and Schroders",
-    // },
-    // {
-    //   command: "education",
-    //   response: "UCL BASc - Social Sciences and Mathematics with Arabic",
-    // },
-    // {
-    //   command: "portfolio",
-    //   response:
-    //     "pastebin (github, documentation) TV App (github, documentation)",
-    // },
+    {
+      command: "experience",
+      response: (
+        <p>
+          {" "}
+          <b>Xceptor Nov 2021 - Feb 2022</b>
+          <br></br>- delivered data automation projects for <b>J.P. Morgan</b>,{" "}
+          <b>Citi</b> and <b>Schroders</b>
+          <br></br>- worked in Agile teams using <b>C#</b>, <b>XML</b> and{" "}
+          <b>SQL</b> to configure products to client needs
+          <br></br>
+          <br></br>
+          <b>Quo Vadis Nov 2021 - Feb 2022</b>
+          <br></br>- worked 12 hour night shifts as the receptionist of a lively
+          restaurant/bar
+          <br></br>- befriended the <b>director of Mr Bean's Holiday</b>
+          <br></br>
+          <br></br>
+          <b>Design and Artist's Copyright Society Oct 2020 - Jan 2021</b>
+          <br></br>- produced report on tech-driven change in the art market for
+          the UK’s largest artists’ rights organisation
+          <br></br>- predicted the <b>NFT boom</b> and influenced the
+          organisation to research their effects on artists’ rights
+        </p>
+      ),
+    },
+    {
+      command: "education",
+      response: (
+        <p>
+          <b>
+            University College London (UCL) BASc - Politics and Mathematics with
+            Arabic
+          </b>
+        </p>
+      ),
+    },
+    {
+      command: "portfolio",
+      response: (
+        <p>
+          <b>Pastebin App</b>
+          <br></br> -an app to save pieces of code <br></br>
+          -built using Postgres, Express, React, TypeScript, HTML and CSS
+          <br></br>- <a>GitHub</a>, <a>Documentation</a>
+          <br></br>
+          <br></br>
+          <b>TV App</b>
+          <br></br>
+          -an app to find information and memes about TV episodes
+          <br></br>
+          -built using React, TypeScript, HTML and CSS
+          <br></br>- <a>GitHub</a>, <a>Documentation</a>
+        </p>
+      ),
+    },
   ];
 
   const handleEnter = (event: React.KeyboardEvent) => {
