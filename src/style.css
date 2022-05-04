@@ -29,6 +29,7 @@
   font-family: "Lucida Console", "Courier New", monospace;
   color: green;
   border-radius: 0px 0px 15px 15px;
+  box-shadow: 2px 2px 0px 0px navy;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -46,13 +47,14 @@ html {
 
 .topbar {
   color: gainsboro;
-  background-color: #42445e;
+  background-color: #242429;
   margin-bottom: -16px;
-  margin-right: 82px;
+  width: 800px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
   padding-top: 0.4%;
+  box-shadow: 0px 0px 2px 2px navy;
 }
 
 .minimise {
