@@ -1,23 +1,40 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import commands from "../utils/interfaces";
 import FocusLock from "react-focus-lock";
 
 export default function Console(): JSX.Element {
   const [log, setLog] = useState<JSX.Element[]>([
-    <p key="start">Welcome to Saj.dev - type <b>help</b> for a list of supported commands</p>,
+    <p key="start">
+      Welcome to Saj.dev - type <b>help</b> for a list of supported commands
+    </p>,
   ]);
   const [input, setInput] = useState<string>("");
+  const bottomRef = useRef<null | HTMLDivElement>(null);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView();
+  }, [log]);
 
   const commandsResponses: commands[] = [
     {
       command: "help",
-      response: <p>supported commands: <b>about, experience, education, portfolio</b></p>
+      response: (
+        <p>
+          supported commands: <b>about, experience, education, portfolio</b>
+        </p>
+      ),
     },
 
     {
       command: "about",
-      response:
-        <p>Hey there wanderer! My name's <b>Saj</b> and I'm a trainee software engineer. I am finishing up a grant-funding graduate technology scheme at <a href="https://academy.tech/">Academy</a>. The scheme is funded by LocalGlobe and Emerge Education!</p>,
+      response: (
+        <p>
+          Hey there wanderer! My name's <b>Saj</b> and I'm a trainee software
+          engineer. I am finishing up a grant-funding graduate technology scheme
+          at <a href="https://academy.tech/">Academy</a>. The scheme is funded
+          by LocalGlobe and Emerge Education!
+        </p>
+      ),
     },
     //{
     //   command: "experience",
@@ -47,11 +64,17 @@ export default function Console(): JSX.Element {
       (element) => element.command === terminalInput.toLowerCase()
     )?.response;
     response
-      ? setLog([...log, <p key={terminalInput}>→$ {terminalInput} </p>, response])
+      ? setLog([
+          ...log,
+          <p key={terminalInput}>→$ {terminalInput} </p>,
+          response,
+        ])
       : setLog([
           ...log,
-          <p key={terminalInput}>→$  {terminalInput} </p>,
-          <p key={terminalInput + "not found"}>Command not found, type help to see commands</p>,
+          <p key={terminalInput}>→$ {terminalInput} </p>,
+          <p key={terminalInput + "not found"}>
+            Command not found, type help to see commands
+          </p>,
         ]);
   };
 
@@ -73,6 +96,7 @@ export default function Console(): JSX.Element {
             onChange={(e) => setInput(e.target.value)}
           ></input>
         </FocusLock>
+        <div ref={bottomRef} />
       </div>
     </>
   );
