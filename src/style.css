@@ -22,13 +22,14 @@
 
 .terminal {
   vertical-align: top;
-  height: 400px;
-  width: 800px;
+  height: 490px;
+  width: 1200px;
   background-color: black;
   overflow-y: scroll;
   font-family: "Lucida Console", "Courier New", monospace;
   color: green;
   border-radius: 0px 0px 15px 15px;
+  box-shadow: 2px 2px 0px 0px #3d208a;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -36,23 +37,24 @@
 }
 
 html {
-  background-color: #000080;
+  background-color: #24057a;
 }
 
 .consoleContainer {
-  padding-left: 42%;
-  padding-top: 7%;
+  margin-top: -530px;
+  margin-left: 600px;
 }
 
 .topbar {
   color: gainsboro;
-  background-color: #42445e;
+  background-color: #242429;
   margin-bottom: -16px;
-  margin-right: 82px;
+  width: 1200px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
   padding-top: 0.4%;
+  box-shadow: 0px 0px 2px 2px #3d208a;
 }
 
 .minimise {
@@ -60,4 +62,36 @@ html {
   margin-top: -2%;
   margin-right: 3%;
   padding-bottom: 0.5%;
+}
+
+.link {
+  color: green;
+}
+
+.profileBox {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  background-color: #3d208a;
+  color: whitesmoke;
+  gap: 1px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 4%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-left: 55px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.entireContainter {
+  display: flex;
+  flex-direction: row;
 }
