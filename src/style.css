@@ -137,7 +137,7 @@ h4 {
     padding-bottom: 4vw;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5vw;
-    margin-left: 37vw;
+    margin-left: 35vw;
     justify-content: center;
   }
 
@@ -192,10 +192,9 @@ h4 {
     font-size: 2vw;
   }
   .profilepic {
-    /* margin:auto;
-    width: 100%; 
-    max-width: 100%; 
-    height: auto; */
+    width: 1vw;
+    max-width: 1vw;
+    height: auto;
     object-fit: cover;
   }
 }
