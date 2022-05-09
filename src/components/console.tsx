@@ -13,7 +13,7 @@ export default function Console(): JSX.Element {
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView();
-  }, [log, input]);
+  }, [log]);
 
   const commandsResponses: commands[] = [
     {
