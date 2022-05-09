@@ -13,7 +13,9 @@ export default function Console(): JSX.Element {
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView();
-  }, [log]);
+  }, [log, input]);
+
+  console.log(log);
 
   const commandsResponses: commands[] = [
     {
@@ -55,20 +57,20 @@ export default function Console(): JSX.Element {
       response: (
         <p>
           {" "}
-          <b>Xceptor Nov 2021 - Feb 2022</b>
+          <b>Xceptor, Nov 2021 - Feb 2022</b>
           <br></br>- delivered data automation projects for <b>J.P. Morgan</b>,{" "}
           <b>Citi</b> and <b>Schroders</b>
           <br></br>- worked in Agile teams using <b>C#</b>, <b>XML</b> and{" "}
           <b>SQL</b> to configure products to client needs
           <br></br>
           <br></br>
-          <b>Quo Vadis Nov 2021 - Feb 2022</b>
+          <b>Quo Vadis, Nov 2021 - Feb 2022</b>
           <br></br>- worked 12 hour night shifts as the receptionist of a lively
           restaurant/bar
           <br></br>- befriended the <b>director of Mr Bean's Holiday</b>
           <br></br>
           <br></br>
-          <b>Design and Artist's Copyright Society Oct 2020 - Jan 2021</b>
+          <b>Design and Artist's Copyright Society, Oct 2020 - Jan 2021</b>
           <br></br>- produced report on tech-driven change in the art market for
           the UK’s largest artists’ rights organisation
           <br></br>- predicted the <b>NFT boom</b> and influenced the
@@ -91,16 +93,33 @@ export default function Console(): JSX.Element {
       command: "portfolio",
       response: (
         <p>
-          <a href="https://incredible-kulfi-5ae6a9.netlify.app/">
+          <a
+            className="link"
+            target="_blank"
+            href="https://incredible-kulfi-5ae6a9.netlify.app/"
+            rel="noreferrer"
+          >
             <b>Pastebin App</b>
           </a>
           <br></br> -an app to save pieces of code <br></br>
           -built using Postgres, Express, React, TypeScript, HTML and CSS
-          <br></br>- <a href="https://github.com/sajsiv/">GitHub</a>,{" "}
-          <a href="https://github.com/sajsiv/">Documentation</a>
+          <br></br>-{" "}
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/sajsiv/"
+          >
+            GitHub
+          </a>
           <br></br>
           <br></br>
-          <a href="https://academy-jacobcutts13-tv-shows.netlify.app/">
+          <a
+            className="link"
+            target="_blank"
+            href="https://academy-jacobcutts13-tv-shows.netlify.app/"
+            rel="noreferrer"
+          >
             <b>TV App</b>
           </a>
           <br></br>
@@ -108,10 +127,14 @@ export default function Console(): JSX.Element {
           <br></br>
           -built using React, TypeScript, HTML and CSS
           <br></br>-{" "}
-          <a href="https://github.com/JacobCutts13/academy-tv-shows">GitHub</a>,{" "}
-          <a href="https://github.com/JacobCutts13/academy-tv-shows">
-            Documentation
-          </a>
+          <a
+            className="link"
+            target="_blank"
+            href="https://github.com/JacobCutts13/academy-tv-shows"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
         </p>
       ),
     },
