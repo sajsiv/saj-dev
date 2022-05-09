@@ -9,7 +9,7 @@ export default function Profile(): JSX.Element {
         alt="Saj Sivia's profile"
         src="https://media-exp1.licdn.com/dms/image/C4E03AQFF2ectYami3w/profile-displayphoto-shrink_800_800/0/1651757858249?e=1657152000&v=beta&t=HHfbzHDVXO9TyNwToJOxwdBhksgFXiuZoejo3H7QlSk"
       ></img>
-      <h2>Saj Sivia</h2>
+      <h2>Saj Sivia 👨‍💻</h2>
       <h4>Trainee Software Engineer</h4>
       <div className="iconsBox">
         <a

@@ -15,8 +15,6 @@ export default function Console(): JSX.Element {
     bottomRef.current?.scrollIntoView();
   }, [log, input]);
 
-  console.log(log);
-
   const commandsResponses: commands[] = [
     {
       command: "help",
@@ -165,8 +163,6 @@ export default function Console(): JSX.Element {
           </p>,
         ]);
   };
-
-  console.log(log);
 
   return (
     <>
