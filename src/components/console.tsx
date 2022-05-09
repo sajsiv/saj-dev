@@ -46,7 +46,17 @@ export default function Console(): JSX.Element {
           </b>{" "}
           Tech Leadership graduate scheme. Over the past 4 months, I've been
           building projects and learning <b>React</b>, <b>TypeScript</b>,{" "}
-          <b>Express</b>, <b>Postgresql</b> and <b>JavaScript</b>.
+          <b>Express</b>, <b>Postgresql</b> and <b>JavaScript</b>. Feel free to
+          message me on{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/sajjan-sivia-212647192/"
+            className="link"
+          >
+            LinkedIn
+          </a>
+          !
         </p>
       ),
     },
