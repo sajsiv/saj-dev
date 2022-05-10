@@ -32,8 +32,8 @@ export default function Console(): JSX.Element {
           Hey wanderer👋
           <br></br>
           <br></br>
-          My name's <b>Saj</b> and I'm a trainee software engineer👨‍💻. I am a
-          scholar on{" "}
+          My name's <b>Saj</b> and I'm a trainee fullstack software engineer👨‍💻.
+          I am a scholar on{" "}
           <b>
             <a
               className="link"
@@ -44,19 +44,19 @@ export default function Console(): JSX.Element {
               Academy's
             </a>
           </b>{" "}
-          Tech Leadership graduate scheme. Over the past 4 months, I've been
-          building projects and learning <b>React</b>, <b>TypeScript</b>,{" "}
-          <b>Express</b>, <b>Postgresql</b> and <b>JavaScript</b>. Feel free to
-          message me on{" "}
+          Tech Leadership graduate scheme. <br></br>
+          <br></br> Over the past 4 months, I've been building projects and
+          learning <b>React</b>, <b>TypeScript</b>, <b>Express</b>,{" "}
+          <b>Postgresql</b> and <b>JavaScript</b>. Feel free to reach out to me
+          on{" "}
           <a
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/sajjan-sivia-212647192/"
             className="link"
           >
-            LinkedIn
+            LinkedIn!
           </a>
-          !
         </p>
       ),
     },
@@ -65,6 +65,13 @@ export default function Console(): JSX.Element {
       response: (
         <p>
           {" "}
+          <b>Academy, Feb 2022 - Present</b>
+          <br></br>- 4 month highly-selective grant funded programme with less
+          than a 1% acceptance rate, funded by <b>LocalGlobe</b>
+          <br></br>- Built fullstack projects in agile teams using TypeScript,
+          React, Node.js, SQL, Express, Jest and Cypress
+          <br></br>
+          <br></br>
           <b>Xceptor, Nov 2021 - Feb 2022</b>
           <br></br>- delivered data automation projects for <b>J.P. Morgan</b>,{" "}
           <b>Citi</b> and <b>Schroders</b>
@@ -104,21 +111,63 @@ export default function Console(): JSX.Element {
           <a
             className="link"
             target="_blank"
+            href="https://saj-zeri-patelman-dogvotes.netlify.app/"
+            rel="noreferrer"
+          >
+            <b>Dog Voting App</b>
+          </a>
+          <br></br> -a fullstack app to vote for your favourite dog breeds{" "}
+          <br></br>
+          -built using Postgres, Express, React, TypeScript, Cypress, Jest HTML
+          and CSS
+          <br></br> -built REST API, database and interacted with a public API
+          <br></br>-{" "}
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/sajsiv/DogBreedFrontend"
+          >
+            Frontend GitHub
+          </a>
+          ,
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/roshnihpatel/Dog-Breed-Voting-Backend"
+          >
+            Backend GitHub
+          </a>
+          <br></br>
+          <br></br>
+          <a
+            className="link"
+            target="_blank"
             href="https://incredible-kulfi-5ae6a9.netlify.app/"
             rel="noreferrer"
           >
             <b>Pastebin App</b>
           </a>
-          <br></br> -an app to save pieces of code <br></br>
+          <br></br> -an fullstack app to save pieces of text and code<br></br>
           -built using Postgres, Express, React, TypeScript, HTML and CSS
           <br></br>-{" "}
           <a
             className="link"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/sajsiv/"
+            href="https://github.com/sajsiv/pastebin-frontend/"
           >
-            GitHub
+            Frontend GitHub
+          </a>
+          ,{" "}
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/arshaikhh/pastebin-team"
+          >
+            Backend GitHub
           </a>
           <br></br>
           <br></br>
@@ -133,7 +182,8 @@ export default function Console(): JSX.Element {
           <br></br>
           -an app to find information and memes about TV episodes
           <br></br>
-          -built using React, TypeScript, HTML and CSS
+          -built using React, TypeScript, HTML, Jest and CSS
+          <br></br>-fetched data from public API
           <br></br>-{" "}
           <a
             className="link"

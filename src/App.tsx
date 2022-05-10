@@ -9,6 +9,7 @@ function App(): JSX.Element {
       <div className="consoleContainer">
         <Console />
       </div>
+      <footer></footer>
     </div>
   );
 }

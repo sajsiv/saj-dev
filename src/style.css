@@ -67,7 +67,7 @@ html {
   padding-right: 1vw;
   padding-top: 1vw;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 5vw;
+  margin-top: 7vw;
   margin-left: 6vw;
   justify-content: center;
   overflow: auto;
@@ -124,8 +124,8 @@ h4 {
   .profileBox {
     display: flex;
     flex-direction: column;
-    width: 26vw;
-    height: 40vw;
+    width: 55vw;
+    height: 70vw;
     background-color: #3d208a;
     color: #f5f5f5;
     text-align: center;
@@ -137,24 +137,28 @@ h4 {
     padding-bottom: 4vw;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5vw;
-    margin-left: 35vw;
+    margin-left: 21vw;
     justify-content: center;
+    overflow: hidden;
   }
 
   h2 {
     font-size: 3.4vw;
-    margin: 0vw;
+    margin: 2vw;
     padding: 0vw;
   }
 
   h4 {
     font-size: 2.3vw;
-    margin: 0vw;
+    margin: 2vw;
     padding: 0;
+  }
+  a {
+    margin: 2vw;
   }
   .consoleContainer {
     margin-top: 10vw;
-    margin-left: 17vw;
+    margin-left: 9vw;
   }
   p {
     font-size: 2vw;
@@ -163,7 +167,7 @@ h4 {
     color: #dcdcdc;
     background-color: #242429;
     margin-bottom: -2vw;
-    width: 65vw;
+    width: 80vw;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border-radius: 1vw 1vw 0 0;
@@ -172,8 +176,8 @@ h4 {
   }
   .terminal {
     vertical-align: top;
-    height: 78vw;
-    width: 65vw;
+    height: 70vw;
+    width: 80vw;
     background-color: #000;
     overflow-y: scroll;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -192,7 +196,7 @@ h4 {
     font-size: 2vw;
   }
   .profilepic {
-    width: 90%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
