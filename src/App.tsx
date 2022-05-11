@@ -9,7 +9,7 @@ function App(): JSX.Element {
       <div className="consoleContainer">
         <Console />
       </div>
-      <footer></footer>
+      <footer>🔨 Built by Saj 🔨</footer>
     </div>
   );
 }

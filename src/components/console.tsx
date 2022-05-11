@@ -174,25 +174,32 @@ export default function Console(): JSX.Element {
           <a
             className="link"
             target="_blank"
-            href="https://academy-jacobcutts13-tv-shows.netlify.app/"
+            href="https://linear-binary-search.netlify.app/"
             rel="noreferrer"
           >
-            <b>TV App</b>
+            <b>Linear and Binary Search</b>
           </a>
-          <br></br>
-          -an app to find information and memes about TV episodes
-          <br></br>
-          -built using React, TypeScript, HTML, Jest and CSS
-          <br></br>-fetched data from public API
+          <br></br> -an small app I built to demonstrate the speed of different
+          search algorithms in an workshop I hosted<br></br>
+          -built using React, TypeScript, HTML and CSS
           <br></br>-{" "}
           <a
             className="link"
             target="_blank"
-            href="https://github.com/JacobCutts13/academy-tv-shows"
             rel="noreferrer"
+            href="https://github.com/sajsiv/Linear-and-Binary-Search-Demo-Website"
           >
             GitHub
           </a>{" "}
+          <br></br> -{" "}
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/watch?v=6_ipZYav8zY&ab_channel=saj-dev"
+          >
+            Here's a link to the workshop!
+          </a>
         </p>
       ),
     },
@@ -219,7 +226,7 @@ export default function Console(): JSX.Element {
           ...log,
           <p key={terminalInput}>→$ {terminalInput} </p>,
           <p key={terminalInput + "not found"}>
-            Command not found, type help to see commands
+            Command not found, type <b>help</b> to see commands
           </p>,
         ]);
   };
