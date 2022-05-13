@@ -79,7 +79,7 @@ export default function Console(): JSX.Element {
           <b>SQL</b> to configure products to client needs
           <br></br>
           <br></br>
-          <b>Quo Vadis, Nov 2021 - Feb 2022</b>
+          <b>Quo Vadis, Oct 2021 - Nov 2021</b>
           <br></br>- worked 12 hour night shifts as the receptionist of a lively
           restaurant/bar
           <br></br>- befriended the <b>director of Mr Bean's Holiday</b>
