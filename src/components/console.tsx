@@ -207,9 +207,7 @@ export default function Console(): JSX.Element {
       command: "ls",
       response: (
         <p>
-          <b>
-            Nice try!
-          </b>
+          <b>Nice try!</b>
         </p>
       ),
     },
@@ -217,18 +215,15 @@ export default function Console(): JSX.Element {
       command: "cd",
       response: (
         <p>
-          <b>
-            Nice try!
-          </b>
+          <b>Nice try!</b>
         </p>
       ),
-    }, {
+    },
+    {
       command: "git branch",
       response: (
         <p>
-          <b>
-            No branches here!
-          </b>
+          <b>No branches here!</b>
         </p>
       ),
     },
