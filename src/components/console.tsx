@@ -118,7 +118,7 @@ export default function Console(): JSX.Element {
           </a>
           <br></br> -a fullstack app to vote for your favourite dog breeds{" "}
           <br></br>
-          -built using Postgres, Express, React, TypeScript, Cypress, Jest HTML
+          -built using Postgres, Express, React, TypeScript, Cypress, Jest, HTML
           and CSS
           <br></br> -built REST API, database and interacted with a public API
           <br></br>-{" "}
@@ -200,6 +200,35 @@ export default function Console(): JSX.Element {
           >
             Here's a link to the workshop!
           </a>
+        </p>
+      ),
+    },
+    {
+      command: "ls",
+      response: (
+        <p>
+          <b>
+            Nice try!
+          </b>
+        </p>
+      ),
+    },
+    {
+      command: "cd",
+      response: (
+        <p>
+          <b>
+            Nice try!
+          </b>
+        </p>
+      ),
+    }, {
+      command: "git branch",
+      response: (
+        <p>
+          <b>
+            No branches here!
+          </b>
         </p>
       ),
     },
