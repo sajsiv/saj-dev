@@ -87,7 +87,7 @@ img {
 }
 
 .icons:hover {
-  background-color: #604c97;
+  background-color: #a1a6b467;
 }
 
 .entireContainter {
@@ -194,7 +194,7 @@ footer {
   }
   .consoleInput {
     border: 0;
-    width: 380%;
+    width: 190%;
     background-color: #000;
     color: #98fc83;
     font-family: "Lucida Console", "Courier New", monospace;
