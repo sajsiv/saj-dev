@@ -32,23 +32,29 @@ export default function Console(): JSX.Element {
           Hey wanderer👋
           <br></br>
           <br></br>
-          My name's <b>Saj</b> and I'm a trainee fullstack software engineer👨‍💻.
-          I am a scholar on{" "}
+          My name's <b>Saj</b> and I'm a fullstack software engineer👨‍💻. Over the
+          past 4 months, I've been working at
           <b>
+            {" "}
             <a
               className="link"
-              href="https://academy.tech/"
+              href="https://www.luminance.com/"
               target="_blank"
               rel="noreferrer"
             >
-              Academy's
+              {" "}
+              Luminance
             </a>
           </b>{" "}
-          Tech Leadership graduate scheme. <br></br>
-          <br></br> Over the past 4 months, I've been building projects and
-          learning <b>React</b>, <b>TypeScript</b>, <b>Express</b>,{" "}
-          <b>Postgresql</b> and <b>JavaScript</b>. Feel free to reach out to me
-          on{" "}
+          - building the leading AI NLP product for legal contracts.
+          <br></br>
+          <br></br>
+          I've been using <b>Object-Orientated JavaScript</b>, <b>Express.js</b>
+          , <b>PostgreSQL</b>, <b>Java</b> and <b>ElasticSearch</b> to build
+          products for the world's largest Law Firms and Private Equity firms.
+          <br></br>
+          <br></br>I am looking for a new opportunity to build and grow - feel
+          free to reach out to me on{" "}
           <a
             target="_blank"
             rel="noreferrer"
@@ -65,8 +71,24 @@ export default function Console(): JSX.Element {
       response: (
         <p>
           {" "}
-          <b>Academy, Feb 2022 - Present</b>
-          <br></br>- 4 month highly-selective grant funded programme with less
+          <b>Luminance, July 2022 - November 2022</b>
+          <br></br>- Full Stack engineer on NLP AI product for legal contracts,
+          used by <b>BlackRock</b>, <b>Clifford Chance</b>, <b>Tesco</b> etc.
+          <br></br>- Working with Backbone.js (OOP Frontend framework),
+          Express.js, ElasticSearch, Java, PostgreSQL and Linux
+          <br></br>- Created backend polling process to automatically change
+          status of legal tasks
+          <br></br>- Built and designed new interactive troubleshooter system,
+          which auto populates support tickets and tracks data on version
+          numbers and product areas clients are experiencing difficulty with
+          <br></br>- Delivered backend hotfixes for our largest clients in
+          ambiguous and time pressured conditions
+          <br></br>- Self-taught to engineer solutions for a Microsoft Word
+          plugin and a backend automated email system
+          <br></br>
+          <br></br>
+          <b>Academy, Feb 2022 - July 2022</b>
+          <br></br>- 5 month highly-selective grant funded programme with less
           than a 1% acceptance rate, funded by <b>LocalGlobe</b>
           <br></br>- Built fullstack projects in agile teams using TypeScript,
           React, Node.js, SQL, Express, Jest and Cypress
@@ -98,7 +120,7 @@ export default function Console(): JSX.Element {
       response: (
         <p>
           <b>
-            University College London (UCL) BASc - Politics and Mathematics with
+            University College London (UCL) BASc - Mathematics and Politics with
             Arabic
           </b>
         </p>
