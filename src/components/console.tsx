@@ -171,7 +171,7 @@ export default function Console(): JSX.Element {
           >
             <b>Pastebin App</b>
           </a>
-          <br></br> -an fullstack app to save pieces of text and code<br></br>
+          <br></br> -a fullstack app to save pieces of text and code<br></br>
           -built using Postgres, Express, React, TypeScript, HTML and CSS
           <br></br>-{" "}
           <a
@@ -201,7 +201,7 @@ export default function Console(): JSX.Element {
           >
             <b>Linear and Binary Search</b>
           </a>
-          <br></br> -an small app I built to demonstrate the speed of different
+          <br></br> -a small app I built to demonstrate the speed of different
           search algorithms in an workshop I hosted<br></br>
           -built using React, TypeScript, HTML and CSS
           <br></br>-{" "}
